@@ -3,6 +3,7 @@ class Student
   attr_reader :id
   
   def initialize(name, album, id=nil)
+    @id = id 
     @name = name
     @album = album
   end 
