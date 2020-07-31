@@ -15,9 +15,9 @@ class Student
         name TEXT,
         album TEXT)
       SQL
-      
+      DB[:conn]
   end 
 
-  DB[:conn]
+  
 
 end 
